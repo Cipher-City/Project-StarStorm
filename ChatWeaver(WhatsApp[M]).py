@@ -27,7 +27,9 @@ body = f"""Before we begin, we would like to inform you of exactly what this pro
     • Comrehend the context of your chat conversation in any inteligent, invasive, or intrusive way
     • Evolve, change, or modify the way it processes your data without you programming new intuctions
 
-Note for user: please make sure {self_path.name} is in the same folder as the media files and conversation transcript
+Note for user:
+    please make sure {self_path.name} is in the same folder as the media files and conversation transcript
+    if {self_path.name} is not in the correct location, you can cancel the run by pressing "No"
 
 Do you consent to this process?"""
 

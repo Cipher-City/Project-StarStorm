@@ -14,7 +14,7 @@ import json
 from datetime import datetime
 import errno
 
-agent_info = {"User-Agent":"ChatWeaver/1.0 (Project-StarStorm)"}
+agent_info = {"User-Agent":"ChatWeaver/1.0 (https://github.com/Cipher-City/Project-StarStorm/blob/ChatWeaver-Versions/ChatWeaver(Discord).py)"}
 
 def import_mode_dialog(parent: tk.Tk):
     dialog = tk.Toplevel(parent)
